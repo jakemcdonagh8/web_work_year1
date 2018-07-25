@@ -1,0 +1,173 @@
+	body {
+		margin: 0;
+		padding: 0;
+		}
+
+	#banner {
+			height: 4em;
+			padding-bottom: 25px;
+			color:#FFFFFF;
+			text-align: center;
+			word-spacing: 3px;
+			background-color: #000000;
+			border-bottom: solid thin white;
+			border-top: solid thick black;
+			width: 100%
+			
+	}
+	#banner h1 {
+				font-family: "Tahoma", Geneva, serif;
+				margin-top: 0.5em;
+				font-size: 2.5em;
+				
+	}
+	
+	#menu {
+			position: fixed;
+			float: left;
+			width: 15em;
+			padding-top: 1em;
+			padding-right: 1.25em;
+			padding-bottom: 40em;
+			background-color: #000000;
+			border-right: solid thin white;
+			border-top: solid thin white;
+	}
+	
+	#menu h1 {
+				font-family: "Arial", Helvetica, serif;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 2em;				
+	}
+	
+	#menu p {
+				margin-left: 10px;
+				margin-top: 2px;
+				color: #FFFFFF;
+	}
+	
+	#menu a {
+				color: #FFFFFF;
+				padding-right: 0.25em;
+				text-decoration: underline;
+	}
+	
+	#menu a:visited {
+				color: #999999;
+	}
+	
+	#menu a:hover {
+				background-color: #bfbfbf;			
+	}
+	
+	#main {
+			background-color: #000000;
+			padding-top: 0.15em;
+			padding-bottom: 0.73em;
+			padding-left: 17.2em
+	}
+	
+	#main h1 {
+				font-family: "Arial", Helvetica, serif;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 1.5em;	
+	}
+	
+	#main h2{
+				font-family: "Arial", Helvetica, serif;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 1.5em;
+	}
+	
+	#main h3{
+				font-family: "Arial", Helvetica, serif;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 1.5em;
+	}
+	
+	#main p {
+				font-family: "Arial_Black", Gadget, serif;
+				color: #999999;
+			
+	}
+	
+	#main a {
+				color: #FFFFFF;
+				padding-right: 0.25em;
+				text-decoration: underline;
+	}
+	
+	#main a:visited {
+				color: #999999;
+	}
+	
+	#main a:hover {
+				background-color: #bfbfbf;			
+	}
+	
+	#name {
+				text-decoration: underline;
+	}
+	
+	
+	
+	#main tr {
+				color: #FFFFFF;
+				text-align: center;
+	}
+	
+	#main table.center {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#main li {
+				color: #999999;			
+	}
+	
+	#examtitlealevel {
+				text-align: center;
+	}
+	
+	#examtitlegcse {
+				text-align: center;
+	}
+	
+	#examtitlebtec {
+				text-align: center;
+	}
+	
+	#namecv {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#locationcv {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#phonecv {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#emailcv {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#profilecv {
+		text-decoration: underline;
+	}
+	
+	#blankspace {
+		background-color: #000000;
+			padding-top: 0.15em;
+			padding-bottom: 6.82em;
+			padding-left: 17.2em
+	}

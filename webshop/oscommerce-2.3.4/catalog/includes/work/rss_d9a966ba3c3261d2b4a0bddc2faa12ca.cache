@@ -1,0 +1,81 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2015 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:80:"EP for publishers, bookstores and others - EP für Verlage, Buchshops und Andere";s:4:"link";s:38:"http://addons.oscommerce.com/info/9412";s:11:"description";s:1101:"EN: Description<br />
+With thei contribution you can connect <br />
+- Publisher-Shops<br />
+- Bookstores and <br />
+- Other Shops with lots of similar products<br />
+with this special modification of Easy Populate<br />
+<br />
+DE: Beschreibung<br />
+Diese Erweiterung richtet sich speziell an Verlage, Buchshops und &auml;hnliche Shops,<br />
+die viele &auml;hnliche Artikel anbieten, wie z.B. B&uuml;cher, Fotografien, Filme, Music &amp; Downloads.<br />
+Durch diese Anpassung kann Easy Populate auch f&uuml;r diese Shops verwendet werden<br />
+---------------------------------------------------------------------------------------------------<br />
+EN: What is added?<br />
+- The 10 new fields from the contrib 9411 can now be filled with EP.<br />
+- A new filter &quot;author&quot; is added, can be restricted by the export eg to an author.<br />
+<br />
+DE: Was hinzu kommt?<br />
+- Die 10 neuen Felder aus der Contrib 9411 k&ouml;nnen nun mit EP bef&uuml;llt werden.<br />
+- Ein neuer Filter &quot;Urheber&quot; kommt hinzu, durch den der Export z. B. auf einen Autor beschr&auml;nkt werden kann.";s:7:"pubDate";s:31:"Wed, 04 Nov 2015 03:25:54 +0100";}i:1;a:4:{s:5:"title";s:96:"Extension for publishers, bookstores and others / Erweiterung für Verlage, Buchshops und Andere";s:4:"link";s:38:"http://addons.oscommerce.com/info/9411";s:11:"description";s:2902:"EN: Description<br />
+This extension is specifically aimed at publishing houses, book stores and similar stores,<br />
+offer many products such as Books, Photographs, Films, Music &amp; Downloads.<br />
+It will integrate 10 additional data fields. This can - within the shop - can be inserted anywhere.<br />
+The meaning of the fields:<br />
+tms_more: Additional information about a listing using secondary data (such as. &quot;Translated by:&quot; or &quot;Translated from this language:&quot;)<br />
+tms_details: For detailed information such as. ISBN, page number, duration and image resolution<br />
+subtitel: The subtitle of a product<br />
+characteristics: Main features of an article in a few words summed up (Example: hardcover book - 377 pages - with numerous illustrations)<br />
+originator: For the name of the author / photographer / artist etc<br />
+short_description: For a short description of the article<br />
+vita: Information on author / photographer / artist ...<br />
+media_type: An indication of the type of article (eg: Books; film, photography, music)<br />
+form_type: Specifying the value of the media type: (Examples: photos: JPG or RAW, when Musictitle: MP3 or WAV, with a Book: Paperback, HC or file)<br />
+tags: Meaningful keywords that allow to find a product to your store more easily<br />
+<br />
+<br />
+DE: Beschreibung<br />
+Diese Erweiterung richtet sich speziell an Verlage, Buchshops und &auml;hnliche Shops,<br />
+die viele &auml;hnliche Artikel anbieten, wie z.B. B&uuml;cher, Fotografien, Filme, Music &amp; Downloads.<br />
+Es werden 10 zus&auml;tzliche Datenfelder integriert, die innerhalb des Shops an beliebiger<br />
+Stelle eingef&uuml;gt werden k&ouml;nnen.<br />
+Die Bedeutung der Felder:<br />
+tms_more: Zus&auml;tzliche Informationen zu einem Angebot mit zweitrangigen Daten (wie z.B. &quot;&Uuml;bersetzt von:&quot; oder &quot;&Uuml;bersetzt aus dieser Sprache:&quot;)<br />
+tms_details: F&uuml;r detailirte Informationen wie z:b. ISBN, Seitenzahl, Laufzeit und Bildaufl&ouml;sung<br />
+subtitel: Der Untertitel eines Produkts<br />
+characteristics: Haupteigenschaften eines Artikels in wenigen Worten zusammengefa&szlig;t (Beispiel: Hardcoverbuch - 377 Seiten - mit zahlreichen Abbildungen)<br />
+originator: F&uuml;r den Namen des Autor/Fotografen/Interpreten etc<br />
+short_description: F&uuml;r eine echte Kurzbeschreibung des Artikels<br />
+vita: Informationen zum Urheber/Autor/Fotografen/Interpreten etc<br />
+media_type: Kurze Angabe zur Art des Artikels (z.B.: Buch; Film, Foto, Musik)<br />
+form_type: Angabe zum Format des Medien-Typs: (Beispiele: beim Foto: JPG oder RAW, bei einem Musiktitel: MP3 oder WAV, bei einem Buch: Taschenbuch, HC oder Datei)<br />
+tags: Aussagekr&auml;ftige Stichworte, die es erlauben, einen Artikel in Ihrem Shop leichter zu finden<br />
+<br />
+With Picture<br />
+<br />
+Demo Shop: www.theovonhofstede.de/shop";s:7:"pubDate";s:31:"Tue, 03 Nov 2015 20:31:43 +0100";}i:2;a:4:{s:5:"title";s:25:"Optional Related Products";s:4:"link";s:38:"http://addons.oscommerce.com/info/8057";s:11:"description";s:398:"Optional Related Products 5.6 BS + standard<br />
+<br />
+Changes Version 5.6 BS + standard:<br />
+- Insert database queries in Admin/optional_related_products modified to avoid integer error in certain databases.<br />
+ Column list added to strip empty POP_id input. Thanks to @spidometrs for the report<br />
+<br />
+<br />
+Full Package (BS and Standard included)<br />
+Update Instructions included";s:7:"pubDate";s:31:"Tue, 03 Nov 2015 16:59:59 +0100";}i:3;a:4:{s:5:"title";s:22:"Wirecard Checkout Page";s:4:"link";s:38:"http://addons.oscommerce.com/info/9410";s:11:"description";s:1534:"Wirecard Checkout Page is designed to meet the ambitious demands of merchants offering a wide range of payment methods while at the same time fulfilling PCI DSS compliance.<br />
+<br />
+Wirecard Checkout Page offers:<br />
+- National and international payment methods: credit cards, debit cards, online banking payments, mobile payment solutions and other alternative payment methods.<br />
+- One interface for all payment methods.<br />
+- Intuitive user interface in more than 25 languages and 120 currencies.<br />
+- Layout and design customizable to meet the needs of our merchants (customized look-and-feel).<br />
+- Payment page compatible with mobile devices.<br />
+- Comprehensive range of effective fraud prevention tools.<br />
+- PCI DSS 3 compliant, no PCI certification necessary for merchants.<br />
+- Easy to add new payment methods, additional features, languages and currencies, etc.<br />
+- Web interface for managing payments (approvals, cancelations, credits, etc.).<br />
+- Benefit from Wirecard Bank&acute;s license to conclude credit card acceptance contracts (acquiring) and issue credit cards.<br />
+- With Wirecard Collecting only a single contract is required for payouts within various payment methods.<br />
+- Support of recurring payments (subscriptions, one-click checkout).<br />
+<br />
+Our Online Guides provide technical documentation, installation and configuration instructions for the plugin as well as further information on payment methods and additional features: https://integration.wirecard.at/";s:7:"pubDate";s:31:"Mon, 02 Nov 2015 15:33:33 +0100";}i:4;a:4:{s:5:"title";s:25:"PriceCheck Feed generator";s:4:"link";s:38:"http://addons.oscommerce.com/info/9409";s:11:"description";s:591:"As a leader in price comparison, PriceCheck brings your products to internet users around the country, effortlessly. We will provide you with high quality traffic that converts to sales as you are able to leverage our established brand and traffic without having to be well established online yourself.<br />
+<br />
+Take total control of your spending by making use of our reporting tools to determine how your online listings can improve. We can even give you the tools to get your products listed online in an instant, with no coding knowledge required. Sign up today and see for yourself.";s:7:"pubDate";s:31:"Mon, 02 Nov 2015 15:04:12 +0100";}}s:11:"items_count";i:5;}

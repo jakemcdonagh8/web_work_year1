@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title>JavaScript Practical</title>
+	<script type="text/javascript">
+<!-- // ======== Script 1: a function (called in the body tag) ===============
+		function welcome()
+		{
+		var person = prompt("Please enter some info into the box", "");
+			alert("Welcome," + " " + person);
+		}
+		// -->
+	</script>
+
+<!-- Script 2 is inline below -->
+
+	<script type="text/javascript">
+<!-- // ======== Script 3: Forms input processing in JS ======================
+		function calc_vat()
+		{
+		var vat=20; 	// Put the percentage rate of VAT here. 
+				// Doing it this way makes it easier to maintain
+		vat += 100;
+		vat = vat/100; 	// So we get a multiplier such as 1.2 (for 20% VAT)
+
+		total = vat*document.forms[0].amount.value;
+		document.forms[0].result.value = total;
+		
+
+		}
+
+// -->
+</script>
+</head>
+
+<body onload="welcome()">
+	<h1>CS15020: Practical 2: Writing some JavaScript</h1>
+
+	<p>The scripts in this page may not
+	work as you expect. You probably want to customise to
+	your own taste anyway!</p>
+
+	<p>The most important thing is that you make sure you understand 
+	each script.</p>
+
+	<hr />
+	<p>
+	The first script is called when the body loads. Can you customise
+	it so that it prompts you for your name, then welcomes you
+	personally? (we saw the <tt>prompt</tt> command in the lectures)</p>
+
+	<hr />
+	<p>Today is
+	<script type="text/javascript">
+<!-- // ======== Script 2: Dates and numbers as strings ======================
+		Today = new Date();
+
+		document.write(Today.getDate()+ "/" + (Today.getMonth() + 1) + "/" + Today.getFullYear());
+		// Hint: remember what we said about types in JavaScript and
+		// the overloading of the + operator
+		// Remember also what we said abuot the Y2K bug
+		// -->
+	</script>
+	</p>
+	<p>Is this correct? If not, see if you can fix it!</p>
+
+	<hr />
+	<p>Can you add in a script here to write "good morning", 
+	"good afternoon" or "good evening", as appropriate? Use the 
+	same idea as above for the date.
+	
+	<script type="text/javascript">
+	  var thishour = new Date();
+	  var hournumber = thishour.getHours();
+	  var hourresponse;
+	  
+	  if (hournumber<12) {
+	  hourresponse = ("Good morning,")
+	  } else if (hournumber<18) {
+	  hourresponse = ("Good afternoon,")
+	  } else {
+	  hourresponse = ("Good evening,")
+	  }
+	  
+	  document.write(hourresponse);
+	 
+	
+	</script>
+	</p>
+	<hr />
+
+
+	<p>The following is an example of processing input to an XHTML form
+	using JavaScript. See if you can modify this to be a two-way exchange
+	rate calculator.</p>
+	<form action="">
+		<p>
+		Add VAT to how much?
+		<input type="text" name="amount" size="7" />
+		</p>
+		<p>
+		<input type="button" name="calc" onclick="calc_vat()" value="Calculate" />
+		</p>
+		<p>
+		The total price to pay is
+		<input type="text" name="result" size="7" />
+		</p>
+	</form>
+
+	<hr />
+
+	<p>This practical work is not part of the assessment for the
+	course, but is designed to help you understand what we have
+	covered in lectures.</p>
+
+	
+	<p>
+	<a href="mailto:ais@aber.ac.uk">Click here to email me</a>
+	</p>
+	<p>
+	<a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml11"
+        alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	</p>
+</body>
+</html>
